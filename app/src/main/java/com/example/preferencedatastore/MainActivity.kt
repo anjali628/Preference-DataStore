@@ -8,8 +8,10 @@ import androidx.activity.viewModels
 import androidx.lifecycle.lifecycleScope
 import com.example.preferencedatastore.Ui.MainViewModel
 import com.example.preferencedatastore.databinding.ActivityMainBinding
+import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.flow.collect
 
+@AndroidEntryPoint
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
     private val mainViewModel:MainViewModel by viewModels()
