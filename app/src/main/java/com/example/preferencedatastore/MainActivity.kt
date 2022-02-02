@@ -26,7 +26,6 @@ class MainActivity : AppCompatActivity() {
                 binding.preferenceValue.text=it
             }
         }
-
     }
 
     private fun writeToLocal() {
